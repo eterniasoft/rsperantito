@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.sperant.com/v2/projects?q=Villa%20Hermanda
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.2.0 x86_64) ruby/2.5.3p105
+      Authorization:
+      - Bearer 174647bb3907a85fbbaf189efacdcc533d6edc53b702593eaf10219678aa9eee
+      Host:
+      - api.sperant.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 16 Dec 2019 02:52:26 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"f8a0ec773c51857fd4f578884f5811f5"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e7a577e0-9bf6-4e66-ae50-aa51331b2606
+      X-Runtime:
+      - '0.096440'
+      Vary:
+      - Accept-Encoding, Origin
+      Content-Encoding:
+      - gzip
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGvx9l0AA9RWTW/bRhD9KwLPokjq09KpLuDEObQIGiBpmwSLITkm11rusvtBVzb83ztLkbRkCSrQ+NKb9Obt7My8mVk+BbVW95hZE2y+PgU8DzbzcZCpHINN8PnD7U0wDiRU7T8uBIxuUVcgcyA8dVzkXBbM7mpPyJTMVcUlV2Ts3Pa2z7zhSMdGGg3PUWYcBLEypzX92RHj482vBORoMs1ry5UkjACrLAiWKWODjXRCjAMjXEG2xocTlofh5AVa9oApE1xuiRL1uUXH5ChTlj9CrjQdcynPYH/fE6XgpNVtOKhdG08N2lYo6frgQwb7zBouMxyAnBurefbCgDynNKmiwTtHJRl9Amlh9Ato7q2CbrOOCh0m80k8my1XyxWhShYdvFpMVovpYn61fB4HBQiBPiJSpxPiWv59HV5nUHOLSfhRgFSjAiVqEKO9SJ9Awz2MEpbM17P1fLpcT/3P5Xo+n81inwPYkjktyFtpbW02UZQJ5UhN0LsQJrCFCniZTyTaqEx3FZaw+iviFRQYuVooyKNm8JhEPxrSpJZF8DweUrTo+0IZJpRFw1CyhiQAxmWD2pBYHhSs5lKtks7PbJUs3zY17zH6r6FM7mtK6Tv1pXBYay67EXsLEafL5I1FJI8/JiI5eC1iO3TMtGcYDRmjivT0eLF64wzIY/QvNw6SGFejbrhR+mXtTcfBHe0X1gX/G1TfXBwjTfLj6L2SjyD8WnMGdccoNFScrIRqJbA/SFvQOGGVHiG1juRg1J0lDlIm4uDYTwfmSaYqX46SusmvPR+j92O1y/rVZCxYZ/olqJG2Yg7W06dxchXGizDxk43GUnks5mettLuKbjXFk5jECh5Aa1pPO39F/5vBsGwHaIegg018gFRK2vIYohi1bS9md/QOmBLNiaPc6XbdDowzrk85Zy4bSFS8CrV/US65OmD1zp7758VJ7qdzmax7BBpSC1KStbfFV73NKJH3cNyDqVDZloAkGQcHZTAgsC/BnkjvyZYezYOjFCuWijqLTveYwAaFaYEUpD/ATE0dQU/WJghJSaPaVGgwHpTe22lsjZfxDjJMldp2k0XknXLWpciyEqSkZTUYrHKaNVxbBwcop84D36d7qBMQU39Dz3puO9RCNrSKUIUa3miX5vTi+/X4MmFXRx8WYex32Fni+jUxvD6lfvebxrOT+IT+8yV6ckK/uUSfntDfnaMPB/6Pwff02TH9yyXu8WdieHuJuzjmvr/EXR5zf7/EXR1z/7jEfdV9f54VkSaCvlfbP55e0aZgNJ3Qa/wPAAAA//8DAFqqSuUvCwAA
+    http_version: 
+  recorded_at: Mon, 16 Dec 2019 02:52:00 GMT
+recorded_with: VCR 3.0.3

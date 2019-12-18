@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.sperant.com/v2/clients
+    body:
+      encoding: UTF-8
+      string: data[fname]=maxi+compra&data[lname]=sperant&data[email]=maxi_compra%40sperant.com&data[project_related]=4&data[main_telephone]=987654321&data[country]=PE&data[departament]=PAS&data[document]=04023413&data[address]=Av.+los+aolvidados
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.2.0 x86_64) ruby/2.5.3p105
+      Authorization:
+      - Bearer 174647bb3907a85fbbaf189efacdcc533d6edc53b702593eaf10219678aa9eee
+      Content-Length:
+      - '232'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.sperant.com
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 18 Dec 2019 04:04:14 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"c47bacc4c48fc455e18dee4a70acb45e"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 84ddb8ed-4f50-4f69-a766-55c57fa3a653
+      X-Runtime:
+      - '0.951439'
+      Vary:
+      - Accept-Encoding, Origin
+      Content-Encoding:
+      - gzip
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAD6l+V0AA2xS70vkMBD9V0o+V3fbrZ7uJ0UPFPQ4uMMDj6OMyejmTCdlkqyK7P9+k267rnBQaPIyP968N+9KO4sU1fJdWaOWx1VVKs0IEU0LAqt6Xp0eVPVBdfJz3izlqxb3qlSPybmWoEMJuYVXW1z4rmcofvTIIPVKJYfgqY1vPba5tCKIicHJ0xOSQRaok4vxOnVCYRs5lrz8dr33JMC8mdeLploI2oGVsuiwX3nKwacnX46PmkVd5a4ZC2r5ew/9UyqUJJcbCtVWD1TPwpbqoVwl0VJExvCJBsmQIgf0EaKVWV7gbQIt9Sm2egVEuBPiwlMEHX3xCx+kZHqwekjM6mqfKLLkq+/IKQ+HPXAcx7uxHWT27NeW9K61sSGy1XG6gzHCUcZT5+vDwvlQgHdra8D4oDZlbtK7XbZU+4s6hpbRZUNFla3LTY40mfHd9dVX6Tvyv7POQXGF3AGZzMdZehZ8tq5nU7FZozYiaEDnsoVjxaPPG3GJAZi9c774OGZFAvIYYvZx+e+sB9NZynPLUKw+rFsh++d0hmITWQj+cXJuWoOBF6WuHawUH0R5kaqWMUB83UNbI3L8d7eb+6mjbAmFwZzICTebfwAAAP//AwAj0KrSKgMAAA==
+    http_version: 
+  recorded_at: Wed, 18 Dec 2019 04:03:44 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.sperant.com/v2/clients/587
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.2.0 x86_64) ruby/2.5.3p105
+      Authorization:
+      - Bearer 174647bb3907a85fbbaf189efacdcc533d6edc53b702593eaf10219678aa9eee
+      Host:
+      - api.sperant.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 16 Dec 2019 02:52:28 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"abdab4367ab4ea0019dc4ae952766878"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - afa14641-8706-4d8e-b7af-3c282e029235
+      X-Runtime:
+      - '0.047209'
+      Vary:
+      - Accept-Encoding, Origin
+      Content-Encoding:
+      - gzip
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAG3x9l0AA4STTY/TQAyG/0o153bbhG2T9sQKJIQEaA8IiV2hyJ14qWEyCfOxqFr1v/O6X7RckHKYsZ3H9mvPi7FO2CezejHSmtW8rsbGBqbEbUMwm3JWLCdFMSmLz7P5ajbD92DG5ik713jqGCFvKPROPI3ekSTy8A4cYu+btB24UazxlHIgB9d39i0HmJ5waXubO6Q/RB5xbz+9v3DBQDn1k7IqF/UtHB0JyOx42PRe4zWfHqNZPZplVVd1vSgr821sGLEOEdtOHCexm9cRlZFPN7bHX+ITB47X2ckl9VkaEiVBE79pq9VyEBqJ7/q1OCFc9oAhp8ZuyHs+q/FFIlQY3YPM3sq+6bwWu6epzrbPPgWF3nPI2ioPFNKx2Q/SKXoI/bN4C6CH0oiRmILYdLpT2yJB1PZ3Y0UOjhV+Iduyrhbz+aKq/xnXDWrLvNYsJ4FwxAB/4jR9LqeHlYjT26JUOEr5wTbFJrDTvYDMh2UpNHGryLsShCP+LvCvLAONymvqCTMtzA6zieyc7sGJNbsu8uNxYqOva3YCHSBi5HD0ngcKM3bv7/DaTrwqRW0fzH8X4LxBWpDPXbPfCLI6KUi7QP2E9biwNi0UuH4VBV5FuSpePZzyNRZ/70eQoPNu9wcAAP//AwDItjRDZAMAAA==
+    http_version: 
+  recorded_at: Mon, 16 Dec 2019 02:52:02 GMT
+recorded_with: VCR 3.0.3

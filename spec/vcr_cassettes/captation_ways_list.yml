@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.sperant.com/v2/captation_ways?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.2.0 x86_64) ruby/2.5.3p105
+      Authorization:
+      - Bearer 174647bb3907a85fbbaf189efacdcc533d6edc53b702593eaf10219678aa9eee
+      Host:
+      - api.sperant.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 16 Dec 2019 04:36:36 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"679093934e63ddb8976a6bcfdd8c123a"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c9349f71-8ac8-49f6-91e5-f26d033c62ee
+      X-Runtime:
+      - '0.015292'
+      Vary:
+      - Accept-Encoding, Origin
+      Content-Encoding:
+      - gzip
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIANUJ910AA1yQ0U7DMAxFf8XK8x7aAgP1VwAhJzXIIrMrN+02pv07rZDisbco91j2PZeQcCxYWOXjiOcp9K+XwEPo210QPFDoQ0YgSSrFKFx3f2lX0xEnhVENVuxHBSvyUJHZIgp78ujDb3PTUPvFgnCkWImnSnxioqj6XaN9jRbNKMVvevYhMkZgOWjkzGg3u18qhDCoDAQLL2w1b5sKbJUxFf13WetehE7qQnxO88m/b0UJZZgw40JmZ0dc1GgzRb+129812jZC13SNI17aaIMGhVV2UpiSFsb17eo6L581zXav6P36CwAA//8DAAI9mI8OAgAA
+    http_version: 
+  recorded_at: Mon, 16 Dec 2019 04:36:09 GMT
+recorded_with: VCR 3.0.3

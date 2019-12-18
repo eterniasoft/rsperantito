@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email          = ['gersoneufra@gmail.com']
   spec.summary        = %q{ruby client for the SPERANT API}
   spec.homepage       = 'http://rubygems.org/gems/rsperantito'
-  spec.licence        = 'MIT'
+  spec.license        = 'MIT'
 
   spec.files          = `git ls-files -z`.split("\x0")
   spec.test_files     = spec.files.grep(/^spec\//)

@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.sperant.com/v2/clients?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.2.0 x86_64) ruby/2.5.3p105
+      Authorization:
+      - Bearer 174647bb3907a85fbbaf189efacdcc533d6edc53b702593eaf10219678aa9eee
+      Host:
+      - api.sperant.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 16 Dec 2019 02:52:27 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Link:
+      - <https://api.sperant.com/v2/clients?page=1>; rel="first" ,  <https://api.sperant.com/v2/clients?page=29>;
+        rel="last" ,  <https://api.sperant.com/v2/clients?page=2>; rel="next"
+      X-Total-Count:
+      - '29'
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"84321446784e85e2438afb359b261b7b"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - eb203bee-d18b-492a-80d7-e5624f004567
+      X-Runtime:
+      - '0.384039'
+      Vary:
+      - Accept-Encoding, Origin
+      Content-Encoding:
+      - gzip
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Mon, 16 Dec 2019 02:52:00 GMT
+recorded_with: VCR 3.0.3

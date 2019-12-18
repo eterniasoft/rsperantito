@@ -1,0 +1,7 @@
+*DS_Store
+.bundle
+.yardoc
+doc
+pkg
+Gemfile.lock
+.ruby-version

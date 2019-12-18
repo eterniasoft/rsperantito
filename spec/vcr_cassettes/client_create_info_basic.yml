@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.sperant.com/v2/clients
+    body:
+      encoding: UTF-8
+      string: data[fname]=maxi&data[lname]=sperant&data[email]=maxi%40sperant.com&data[project_related]=4
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.2.0 x86_64) ruby/2.5.3p105
+      Authorization:
+      - Bearer 174647bb3907a85fbbaf189efacdcc533d6edc53b702593eaf10219678aa9eee
+      Content-Length:
+      - '91'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.sperant.com
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 18 Dec 2019 03:39:50 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"b30e9a23f3ef39e509c1047cc7209ea1"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 534d4c79-f1a4-430e-8d4a-f2aa57c72bf9
+      X-Runtime:
+      - '0.943609'
+      Vary:
+      - Accept-Encoding, Origin
+      Content-Encoding:
+      - gzip
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAIef+V0AA3RSXU/cMBD8Kyc/53rJHaBenpAKEki0qkRFpVaVtdgLZ3DW0dqGInT/vesk98FDn+Jdr2dmZ/KujHdISbXvylnVnjV1pQwjJLQapK2WdbOeN8t58/lHvWpX6/a0/qUq9ZC91wQdyshX+Otmtz0yCFCl5BAD6fTWoy6YiiBlBi9Xj0gWWVqdFDaY3An3ODlhXXy7PrqSBuQU5qvVuqnP5KIDJ8josd8EknkSGcJYiqja338qhTLiC4OIOo+jqE8mFEJHCRnjB8IRwECfIDlR/Qpvu6ajPidtNkCE+12/BEpgUpj9xHuBzPfODA+LgSZkSizv1XfkXNbAHjhNi9y4Doo7HF4cmT21dTGxM2lXg7WiMY7ltiqgvT9syuEJTYqa0ZeMZOcxuJMyaYvCu+urS+GZ9N4572F2hdwB2cLvHT1Lf/GyXOzAFidqK85F9L6EMyGefgz5AiMwB+/D7HAsDkTkacQe9+W7DxVs56jsCTawOmS0QQ7P+RwlFnIQw8MuqSldNeii3OkhOvFdnBZrlrIGSI5HXW3Fjv//rgOjNvJ6CCNxxu32HwAAAP//AwDCtZrh/QIAAA==
+    http_version: 
+  recorded_at: Wed, 18 Dec 2019 03:39:21 GMT
+recorded_with: VCR 3.0.3
